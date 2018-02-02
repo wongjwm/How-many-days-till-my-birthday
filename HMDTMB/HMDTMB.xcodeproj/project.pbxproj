@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1335A2992024E7E600E285C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335A2982024E7E600E285C8 /* AppDelegate.swift */; };
+		1335A29B2024E7E600E285C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335A29A2024E7E600E285C8 /* ViewController.swift */; };
+		1335A29E2024E7E600E285C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1335A29C2024E7E600E285C8 /* Main.storyboard */; };
+		1335A2A02024E7E600E285C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1335A29F2024E7E600E285C8 /* Assets.xcassets */; };
+		1335A2A32024E7E600E285C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1335A2A12024E7E600E285C8 /* LaunchScreen.storyboard */; };
+		1335A2AE2024E7E600E285C8 /* HMDTMBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335A2AD2024E7E600E285C8 /* HMDTMBTests.swift */; };
+		1335A2B92024E7E600E285C8 /* HMDTMBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335A2B82024E7E600E285C8 /* HMDTMBUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1335A2AA2024E7E600E285C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1335A28D2024E7E600E285C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1335A2942024E7E600E285C8;
+			remoteInfo = HMDTMB;
+		};
+		1335A2B52024E7E600E285C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1335A28D2024E7E600E285C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1335A2942024E7E600E285C8;
+			remoteInfo = HMDTMB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1335A2952024E7E600E285C8 /* HMDTMB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMDTMB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1335A2982024E7E600E285C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1335A29A2024E7E600E285C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1335A29D2024E7E600E285C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1335A29F2024E7E600E285C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1335A2A22024E7E600E285C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1335A2A42024E7E600E285C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1335A2A92024E7E600E285C8 /* HMDTMBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMDTMBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1335A2AD2024E7E600E285C8 /* HMDTMBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMDTMBTests.swift; sourceTree = "<group>"; };
+		1335A2AF2024E7E600E285C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1335A2B42024E7E600E285C8 /* HMDTMBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMDTMBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1335A2B82024E7E600E285C8 /* HMDTMBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMDTMBUITests.swift; sourceTree = "<group>"; };
+		1335A2BA2024E7E600E285C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1335A2922024E7E600E285C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1335A2A62024E7E600E285C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1335A2B12024E7E600E285C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1335A28C2024E7E600E285C8 = {
+			isa = PBXGroup;
+			children = (
+				1335A2972024E7E600E285C8 /* HMDTMB */,
+				1335A2AC2024E7E600E285C8 /* HMDTMBTests */,
+				1335A2B72024E7E600E285C8 /* HMDTMBUITests */,
+				1335A2962024E7E600E285C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1335A2962024E7E600E285C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1335A2952024E7E600E285C8 /* HMDTMB.app */,
+				1335A2A92024E7E600E285C8 /* HMDTMBTests.xctest */,
+				1335A2B42024E7E600E285C8 /* HMDTMBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1335A2972024E7E600E285C8 /* HMDTMB */ = {
+			isa = PBXGroup;
+			children = (
+				1335A2982024E7E600E285C8 /* AppDelegate.swift */,
+				1335A29A2024E7E600E285C8 /* ViewController.swift */,
+				1335A29C2024E7E600E285C8 /* Main.storyboard */,
+				1335A29F2024E7E600E285C8 /* Assets.xcassets */,
+				1335A2A12024E7E600E285C8 /* LaunchScreen.storyboard */,
+				1335A2A42024E7E600E285C8 /* Info.plist */,
+			);
+			path = HMDTMB;
+			sourceTree = "<group>";
+		};
+		1335A2AC2024E7E600E285C8 /* HMDTMBTests */ = {
+			isa = PBXGroup;
+			children = (
+				1335A2AD2024E7E600E285C8 /* HMDTMBTests.swift */,
+				1335A2AF2024E7E600E285C8 /* Info.plist */,
+			);
+			path = HMDTMBTests;
+			sourceTree = "<group>";
+		};
+		1335A2B72024E7E600E285C8 /* HMDTMBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1335A2B82024E7E600E285C8 /* HMDTMBUITests.swift */,
+				1335A2BA2024E7E600E285C8 /* Info.plist */,
+			);
+			path = HMDTMBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1335A2942024E7E600E285C8 /* HMDTMB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1335A2BD2024E7E600E285C8 /* Build configuration list for PBXNativeTarget "HMDTMB" */;
+			buildPhases = (
+				1335A2912024E7E600E285C8 /* Sources */,
+				1335A2922024E7E600E285C8 /* Frameworks */,
+				1335A2932024E7E600E285C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMDTMB;
+			productName = HMDTMB;
+			productReference = 1335A2952024E7E600E285C8 /* HMDTMB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1335A2A82024E7E600E285C8 /* HMDTMBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1335A2C02024E7E600E285C8 /* Build configuration list for PBXNativeTarget "HMDTMBTests" */;
+			buildPhases = (
+				1335A2A52024E7E600E285C8 /* Sources */,
+				1335A2A62024E7E600E285C8 /* Frameworks */,
+				1335A2A72024E7E600E285C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1335A2AB2024E7E600E285C8 /* PBXTargetDependency */,
+			);
+			name = HMDTMBTests;
+			productName = HMDTMBTests;
+			productReference = 1335A2A92024E7E600E285C8 /* HMDTMBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1335A2B32024E7E600E285C8 /* HMDTMBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1335A2C32024E7E600E285C8 /* Build configuration list for PBXNativeTarget "HMDTMBUITests" */;
+			buildPhases = (
+				1335A2B02024E7E600E285C8 /* Sources */,
+				1335A2B12024E7E600E285C8 /* Frameworks */,
+				1335A2B22024E7E600E285C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1335A2B62024E7E600E285C8 /* PBXTargetDependency */,
+			);
+			name = HMDTMBUITests;
+			productName = HMDTMBUITests;
+			productReference = 1335A2B42024E7E600E285C8 /* HMDTMBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1335A28D2024E7E600E285C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ChesongLee;
+				TargetAttributes = {
+					1335A2942024E7E600E285C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1335A2A82024E7E600E285C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1335A2942024E7E600E285C8;
+					};
+					1335A2B32024E7E600E285C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1335A2942024E7E600E285C8;
+					};
+				};
+			};
+			buildConfigurationList = 1335A2902024E7E600E285C8 /* Build configuration list for PBXProject "HMDTMB" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1335A28C2024E7E600E285C8;
+			productRefGroup = 1335A2962024E7E600E285C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1335A2942024E7E600E285C8 /* HMDTMB */,
+				1335A2A82024E7E600E285C8 /* HMDTMBTests */,
+				1335A2B32024E7E600E285C8 /* HMDTMBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1335A2932024E7E600E285C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1335A2A32024E7E600E285C8 /* LaunchScreen.storyboard in Resources */,
+				1335A2A02024E7E600E285C8 /* Assets.xcassets in Resources */,
+				1335A29E2024E7E600E285C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1335A2A72024E7E600E285C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1335A2B22024E7E600E285C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1335A2912024E7E600E285C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1335A29B2024E7E600E285C8 /* ViewController.swift in Sources */,
+				1335A2992024E7E600E285C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1335A2A52024E7E600E285C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1335A2AE2024E7E600E285C8 /* HMDTMBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1335A2B02024E7E600E285C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1335A2B92024E7E600E285C8 /* HMDTMBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1335A2AB2024E7E600E285C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1335A2942024E7E600E285C8 /* HMDTMB */;
+			targetProxy = 1335A2AA2024E7E600E285C8 /* PBXContainerItemProxy */;
+		};
+		1335A2B62024E7E600E285C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1335A2942024E7E600E285C8 /* HMDTMB */;
+			targetProxy = 1335A2B52024E7E600E285C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1335A29C2024E7E600E285C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1335A29D2024E7E600E285C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1335A2A12024E7E600E285C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1335A2A22024E7E600E285C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1335A2BB2024E7E600E285C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1335A2BC2024E7E600E285C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1335A2BE2024E7E600E285C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RW3RUWW3T;
+				INFOPLIST_FILE = HMDTMB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChesongLee.HMDTMB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1335A2BF2024E7E600E285C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RW3RUWW3T;
+				INFOPLIST_FILE = HMDTMB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChesongLee.HMDTMB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1335A2C12024E7E600E285C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RW3RUWW3T;
+				INFOPLIST_FILE = HMDTMBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChesongLee.HMDTMBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMDTMB.app/HMDTMB";
+			};
+			name = Debug;
+		};
+		1335A2C22024E7E600E285C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RW3RUWW3T;
+				INFOPLIST_FILE = HMDTMBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChesongLee.HMDTMBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMDTMB.app/HMDTMB";
+			};
+			name = Release;
+		};
+		1335A2C42024E7E600E285C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RW3RUWW3T;
+				INFOPLIST_FILE = HMDTMBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChesongLee.HMDTMBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HMDTMB;
+			};
+			name = Debug;
+		};
+		1335A2C52024E7E600E285C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RW3RUWW3T;
+				INFOPLIST_FILE = HMDTMBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChesongLee.HMDTMBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HMDTMB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1335A2902024E7E600E285C8 /* Build configuration list for PBXProject "HMDTMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1335A2BB2024E7E600E285C8 /* Debug */,
+				1335A2BC2024E7E600E285C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1335A2BD2024E7E600E285C8 /* Build configuration list for PBXNativeTarget "HMDTMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1335A2BE2024E7E600E285C8 /* Debug */,
+				1335A2BF2024E7E600E285C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1335A2C02024E7E600E285C8 /* Build configuration list for PBXNativeTarget "HMDTMBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1335A2C12024E7E600E285C8 /* Debug */,
+				1335A2C22024E7E600E285C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1335A2C32024E7E600E285C8 /* Build configuration list for PBXNativeTarget "HMDTMBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1335A2C42024E7E600E285C8 /* Debug */,
+				1335A2C52024E7E600E285C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1335A28D2024E7E600E285C8 /* Project object */;
+}
