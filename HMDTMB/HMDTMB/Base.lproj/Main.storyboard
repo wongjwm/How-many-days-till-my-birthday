@@ -17,12 +17,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tombstone_background" translatesAutoresizingMaskIntoConstraints="NO" id="Jc6-to-Ggq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.97442013491352841" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jc6-to-Ggq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MXK-UY-BRw"/>
+                            <constraint firstItem="Jc6-to-Ggq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OQs-SC-cXb"/>
+                            <constraint firstItem="Jc6-to-Ggq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rVz-aB-pAa"/>
+                            <constraint firstItem="Jc6-to-Ggq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xIi-MF-gd7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tombstone_background" width="1080" height="1920"/>
+    </resources>
 </document>
