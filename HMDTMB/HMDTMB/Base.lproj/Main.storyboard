@@ -17,12 +17,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="birthday_background" translatesAutoresizingMaskIntoConstraints="NO" id="xjS-hy-EK2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.97442013491352841" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xjS-hy-EK2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9iK-I9-Jle"/>
+                            <constraint firstItem="xjS-hy-EK2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Drc-ZS-sJS"/>
+                            <constraint firstItem="xjS-hy-EK2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RpU-DG-aWB"/>
+                            <constraint firstItem="xjS-hy-EK2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="SjP-Yh-g2j"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="32.833583208395808"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="birthday_background" width="2250" height="4000"/>
+    </resources>
 </document>
